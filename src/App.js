@@ -36,6 +36,7 @@ function App() {
   const capitalize =cityName.charAt(0).toUpperCase() + cityName.slice(1).toLowerCase()
   return (
     <div className="app">
+      <div className="wrapper">
       <h1 className="header">WEATHER APP</h1>
       <div className="input">
         <input placeholder='CITY NAME 'type="text" onChange={(e) => setCityName(e.target.value)} />
@@ -58,7 +59,7 @@ function App() {
           </div>
         )}
         </div>
-      
+      </div>
     </div>
   );
 }

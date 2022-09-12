@@ -17,11 +17,13 @@
 
  .app{
   color: rgba(194, 225, 188, 0.737);
-  padding: 0px 20px ;
-  width: 380px;
+  width: 300px;
  background-color: rgba(0, 0, 0, 0.5);
  text-align: center;
  border-radius: 10px;
+ }
+ .wrapper{
+  padding: 10px auto;
  }
  h1{
   padding-top: 20px;
