@@ -1,13 +1,57 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ body{
+  font-family: 'montseratt',sans-serif;
+  letter-spacing: 1px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/sunnyimage.jpg);
+ }
+
+ .app{
+  color: rgba(194, 225, 188, 0.737);
+  padding: 0px 20px ;
+  width: 380px;
+ background-color: rgba(0, 0, 0, 0.5);
+ text-align: center;
+ border-radius: 10px;
+ }
+ h1{
+  padding-top: 20px;
+  font-size: 35px;
+  font-weight: 600;
+ }
+ .input{
+  margin: 20px 0px;
+  color: white;
+ }
+.input input{
+   text-transform:capitalize;
+   background-color: rgba(45, 27, 106, 0.635);
+   color: aliceblue;
+   border: none;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 2px 20px;
+}
+
+.desc img{
+  margin: 10px 0px;
+  background-color:burlywood;
+  border-radius: 30px;
+}
+.desc h2{
+  padding-bottom: 20px;
+}
+
+.error{
+  padding-bottom: 10px;
 }
