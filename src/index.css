@@ -17,10 +17,6 @@
 
  .app{
   color: rgba(194, 225, 188, 0.737);
-<<<<<<< HEAD
-=======
-  padding: 0px 20px ;
->>>>>>> 231ea6615d924dab1fa21fb760ae8a75e2486bb4
   width: 300px;
  background-color: rgba(0, 0, 0, 0.5);
  text-align: center;
@@ -43,6 +39,7 @@
    background-color: rgba(45, 27, 106, 0.635);
    color: aliceblue;
    border: none;
+   width: 200px;
     height: 40px;
     border-radius: 20px;
     font-size: 18px;
